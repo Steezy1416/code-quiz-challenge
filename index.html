@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Code Quiz</title>
 </head>
 
@@ -13,41 +15,59 @@
     <header>
         <h1>Code Quiz</h1>
         <!--Timer-->
+        <p class="hide" id="time-remaining">Time Remaining: </p>
     </header>
 
 
-    <main class="hide">
-        <div id="quiz-box">
-            <div id="question-container">
-                <!--Question will go here-->
-                <button>Press me</button>
+
+    <section>
+
+        <div id="introduction-container" class="hide">
+            <div id="introduction-content">
+                <h2 id="introduction-header">Welcome to this code quiz, prepare your mind, body, and soul for this quiz
+                    may be your last...</h2>
+                <button id="start-button">Start</button>
             </div>
 
-            <div id="answer-button-container">
-                <!--Four answer buttons will go here-->
-                <button></button>
-                <button></button>
-                <button></button>
-                <button></button>
-            </div>
+        </div>
 
-            <div id="next-button">
-                <!--The next button will go here-->
+        <div id="quiz-container" class="hide">
+            <div id="quiz-content">
+                <h2 id="question">What is the definition of the dom interface?</h2>
+                <div id="button-content">
+                    <button class="btn">Answer One</button>
+                    <button class="btn">Answer Two</button>
+                    <button class="btn">Answer Three</button>
+                    <button class="btn">Answer Four</button>
+                </div>
             </div>
-
         </div>
 
         <div id="highscore-container" class="hide">
-            <div>
-                <h2></h2>
-                <p id="final-score"></p>
-                <input type="text" placeholder="Enter your name here">
-                <button id="submit-button"></button>
+            <div id="highscore-content">
+                <h2 id="highscore-header">WOW THERE</h2>
+                <p id="final-score">Your final score is </p>
+                <input type="text" placeholder="Enter your name here" id="name-input">
+                <button id="submit-button">Submit</button>
             </div>
 
         </div>
-    </main>
-    
+
+        <div id="scoreboard-container" class="">
+            <div id="scoreboard-content">
+                <h2 id="scoreboard-header">High Scores</h2>
+                <ul id="score-container">
+                    <li class="list-item">1. Alex - 22</li>
+                    <li class="list-item">2. Mari - 25</li>
+                </ul>
+                <button id="start-over-button">Start Over</button>
+            </div>
+
+        </div>
+    </section>
+
+
+
 </body>
 
 

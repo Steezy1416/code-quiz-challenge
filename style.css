@@ -3,3 +3,130 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 25px;
+}
+
+.hide {
+    display: none;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: yellow;
+    height: 70vh;
+}
+
+#introduction-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#introduction-header {
+    padding: 0 5vw;
+    font-size: 24px;
+}
+
+#start-button {
+    width: 20vw;
+    border: 1px solid black;
+    border-radius: 24px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+#quiz-container {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+#question {
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+}
+
+#button-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    height: 6vh;
+    width: 35vw;
+    margin: 2px;
+    border: 1px solid red;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 2px;
+}
+
+#highscore-container {
+    /* border: 1px solid black; */
+    
+}
+
+#highscore-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#highscore-header {
+    font-size: 35px;
+}
+
+#final-score {
+    font-size: 24px;
+    padding-bottom: 6px;
+}
+
+#name-input {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+}
+
+#submit-button {
+    border: 1px solid black;
+    border-radius: 24px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+
+#scoreboard-header {
+    font-size: 35px;
+}
+
+.list-item {
+    list-style: none;
+    background-color: aliceblue;
+    padding: 3px;
+    margin: 5px;
+}
+
+#start-over-button {
+    border: 1px solid black;
+    border-radius: 24px;
+    padding: 5px;
+    margin-top: 5px;
+}
