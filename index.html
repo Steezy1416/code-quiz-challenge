@@ -15,7 +15,7 @@
     <header>
         <h1>Code Quiz</h1>
         <!--Timer-->
-        <p class="hide" id="time-remaining">Time Remaining: </p>
+        <p class="hide" id="time-remaining"> </p>
     </header>
 
     <section id="page-content" >
@@ -45,8 +45,9 @@
             <div id="highscore-content">
                 <h2 id="highscore-header">WOW THERE</h2>
                 <p id="final-score">Your final score is </p>
-                <input type="text" placeholder="Enter your name here" id="name-input">
-                <button id="submit-button">Submit</button>
+                <form id="name-input">
+                    <input type="text"  name="your-name" id="name-holder" placeholder="Enter your name here">
+                </form>
             </div>
 
         </div>
@@ -55,14 +56,18 @@
             <div id="scoreboard-content">
                 <h2 id="scoreboard-header">High Scores</h2>
                 <ul id="score-container">
-                    <li class="list-item">1. Alex - 22</li>
-                    <li class="list-item">2. Mari - 25</li>
+                    
                 </ul>
                 <button id="start-over-button">Start Over</button>
             </div>
 
         </div>
     </section>
+
+    <footer> 
+        <h3>Made By Alexander Fortin</h3>
+        <p>&copy;2022</p>
+    </footer>
 
     <script src="./script.js"></script>
 
